@@ -1,0 +1,14 @@
+@font-face {
+    font-family: montserratRegular;
+    src: url(../fonts/ofont.ru_Montserrat.ttf);
+}
+
+@font-face {
+    font-family: PlayfairRegular;
+    src: url(../fonts/PlayfairDisplay-Regular.ttf);
+}
+
+@font-face {
+    font-family: PlayfairBold;
+    src: url(../fonts/PlayfairDisplay-Bold.ttf);
+}

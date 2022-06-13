@@ -1,0 +1,295 @@
+@media screen and (max-device-width:720px){
+
+    .Header{
+        padding: 0px;
+        height: 600px;
+        justify-content: space-between;
+    }
+
+    .HeadButton{
+        margin: auto;
+        margin-bottom: 20px;
+        width: 80%;
+        height: 30px;
+        border: 0px;
+        border-bottom: 1px solid white;
+        line-height: 35px;
+    }
+
+    .HeadButton:hover{
+        border: 1px solid white;
+    }
+
+    .HeaderButtonsCont{
+        flex-direction: column;
+        margin-bottom: 0px;
+        margin-bottom: 75px;
+    }
+
+    .HeaderTxtCont{
+        flex-direction: column;
+        width: 75%;
+        margin-right: 20px;
+
+    }
+
+    .HeaderTxtCont span{
+        margin-bottom: 10px;
+    }
+
+    .DownButtonsCont{
+        flex-direction: column;
+    }
+
+    .HeadDownButton{
+        margin-bottom: 15px;
+    }
+
+    .main{
+        width: 100%;
+        height: auto;
+        padding: 50px 0px 50px 0px;
+    }
+
+    .MainSpanCont{
+        width: 80%;
+    }
+
+    .MainCont{
+        width: 80vw;
+        height: auto;
+    }
+
+    .MainCont span:first-child{
+        margin: 0px;
+        padding-left: 10px;
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+
+    .MainSpanCont span:first-child{
+        font-size: 15px;
+        margin: 0px;
+        text-align: justify;
+    } 
+    
+    .main .Line{
+        display: none;
+    }
+
+    .main img{
+        display: none;
+    }
+
+    .Collections{
+        padding-top: 50px;
+        margin: auto;
+        height: auto;
+        padding-right: 10px;
+    }
+
+    .CollLine{
+        display: none;
+    }
+
+    .VineYear{
+        width: 50px;
+    }
+
+    .VineName{
+        width: 300px;
+    }
+
+    .CollTxt{
+        width: auto;
+    }
+
+    .CollectionsCont{
+        padding-left: 10px;
+    }
+
+    .CollImages{
+        display: none;
+    }
+
+    .CollButton{
+        margin: auto;
+    }
+
+    .CollImagesMobile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .CollImagesMobile img{
+      width: 350px;
+      margin: auto;
+      margin-bottom: 10px;
+    }
+
+    .CollImagesMobCont{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .CollImagesMobCont img:last-child{
+        margin-bottom: 30px;
+    }
+
+    .EntryWrap img{
+        display: none;
+    }
+
+    .Entry{
+        height: auto;
+    }
+
+    .EntryCont span{
+        margin-bottom: 30px;
+    }
+
+    .EntryCont{
+        width: 100%;
+        height: auto;
+        padding: 0px;
+        padding-bottom: 30px;
+        border: 0px;
+        align-items: flex-start;
+    }
+
+    .EntryTitle{
+        width: 100%;
+        margin: 0px;
+        margin-bottom: 50px;
+    }
+
+    .EntryCont input{
+        width: 80%;
+        padding: 0;
+    }
+
+    .EntryInput{
+        width: 90%;
+        display: block;
+        margin: 0;
+        margin: auto;
+    }
+
+    .EntryInput input{
+        width: 80%;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    .EntryCont input:nth-child(5){
+        width: 72%;
+        position: relative;
+        left: 20px;
+        top: 20px;
+    }
+
+    .EntryCont input:nth-child(6){
+        width: 80%;
+        margin: auto;
+    }
+
+    .EntryLine{
+        display: none;
+    }
+
+    .EntryCont span:nth-child(3){
+        padding: 0px 10px 0px 10px;
+    }
+
+    .EntryWrap{
+        padding-top: 25px;
+    }
+
+    .Footer{
+        padding: 0;
+        height: 200px;
+        flex-direction: unset;
+        justify-content: flex-start;
+    }
+
+    .FooterButtons{
+        display: none;
+    }
+
+    .FooterInfoCont{
+        flex-direction: column;
+        border: 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .FooterInfoCont div:nth-child(2){
+        display: none;
+    }
+
+    .FooterInfo{
+        border: 0;
+        border-bottom: 1px solid white;
+        line-height: 10px;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+
+    .FooterInfo:last-child{
+        margin: 0;
+    }
+
+    .HambMobile{
+        width: 50px;
+        height: 50px;
+        display: block;
+    }
+
+    .HambMobile img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .HeaderButtonsCont{
+        display: none;
+    }
+
+    .HeaderUp{
+        padding-top: 15px;
+        width: 100%;
+        display: flex;
+    }
+
+    .DownButtonsCont{
+        height: 20%;
+    }
+    
+    .HeadNavigMobile{
+        position: absolute;
+        margin-top: 20%;
+        padding: 0px 10px 0px 10px;
+        display: block;
+        visibility: hidden;
+        width: 100%;
+        background-color: #282828;
+    }
+
+    .HeadNavigMobile ul{
+        list-style: none;
+    }
+
+    .HeadNavigMobile ul li{
+        color: white;
+        border-bottom: 1px solid white;
+        font-family: montserratRegular;
+        margin-bottom: 20px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
